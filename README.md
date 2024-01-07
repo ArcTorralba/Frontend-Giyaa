@@ -13,8 +13,18 @@ pnpm dev
 # or
 bun run dev
 ```
+## From the directory (where .env.example is located) copy these contents to a new .env file
+```
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=jGlqpfiyOiEqmPI6u4Wt+AKmbfi6FQuU+BMXs5MmMbw=
+NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api/v1
+NEXT_PUBLIC_YOUTUBE_API_KEY=AIzaSyALjzk8ZtsppUaPKSBUVgeYPLqETA1ZrVs
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+LIVEKIT_API_KEY=APIAtrXeGH4Xebe
+LIVEKIT_API_SECRET=hrswzeq8BWLhbNk27h6qQgkK1f5qCp7GyTk6csoak6k
+LIVEKIT_SERVER_URL=wss://project-giya-mglq3pky.livekit.cloud
+```
+## Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
